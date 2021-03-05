@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /practice
+
+spring:
+  datasource:
+    username: root
+    password: CAOshunmiao
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: false
